@@ -3,25 +3,12 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="wrapper">
+  <div class="flex flex-col gap-8" data-testid="wrapper">
     <header>
       <h1>Revolve Labs Pokédex</h1>
     </header>
     <main>
-      <RouterView class="router-view" />
+      <RouterView class="flex flex-col" />
     </main>
   </div>
 </template>
-
-<style scoped>
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.router-view {
-  display: flex;
-  flex-direction: column;
-}
-</style>

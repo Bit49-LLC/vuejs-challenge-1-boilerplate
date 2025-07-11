@@ -4,5 +4,5 @@ import { expect, test } from '@playwright/test'
 // https://playwright.dev/docs/intro
 test('visits the app root url', async ({ page }) => {
   await page.goto('/')
-  await expect(page.locator('div.wrapper > header > h1')).toHaveText('Revolve Labs Pokédex')
+  await expect(page.getByTestId('wrapper')).toHaveText('Revolve Labs Pokédex')
 })
