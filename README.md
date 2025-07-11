@@ -101,6 +101,7 @@ Revolve Labs primarily uses Vue.js 3 for front-end web applications, and a boile
 
 - [Vue Router](https://router.vuejs.org/), Vue.js 3’s official router.
 - [Pinia](https://pinia.vuejs.org/), a store library for Vue.js 3.
+- [Vue DevTools](https://devtools-next.vuejs.org/), the official Vue.js dev tools plugin.
 - [VueUse](https://vueuse.org/), a utility library for Vue.js 3.
 - [Vitest](https://vitest.dev/) for unit tests.
 - [Playwright](https://playwright.dev/) for e2e tests.
@@ -135,8 +136,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration
@@ -193,4 +194,5 @@ npm run lint
 ```
 
 ---
+
 For legal information, please see [DISCLAIMER.md](DISCLAIMER.md)
