@@ -101,6 +101,7 @@ Revolve Labs primarily uses Vue.js 3 for front-end web applications, and a boile
 
 - [Vue Router](https://router.vuejs.org/), Vue.js 3’s official router.
 - [Pinia](https://pinia.vuejs.org/), a store library for Vue.js 3.
+- [Vue DevTools](https://devtools-next.vuejs.org/), the official Vue.js dev tools plugin.
 - [VueUse](https://vueuse.org/), a utility library for Vue.js 3.
 - [Vitest](https://vitest.dev/) for unit tests.
 - [Playwright](https://playwright.dev/) for e2e tests.
@@ -112,7 +113,7 @@ Revolve Labs primarily uses Vue.js 3 for front-end web applications, and a boile
 - A .vscode folder containing an [extensions.json](https://github.com/Bit49-LLC/vuejs-challenge-1-boilerplate/blob/main/.vscode/extensions.json) for use with [VSCode](https://code.visualstudio.com/).
 - A custom font, “[Pokémon DP Pro](https://fontstruct.com/fontstructions/show/404271/pok_mon_dp_pro)”, which is reminiscent of the original font from Pokémon Diamond/Pearl/Platinum Versions for the Nintendo DS.
 
-You are allowed to use as many libraries, custom components, and as much custom CSS as necessary–[Tailwind CSS](https://tailwindcss.com/) is also installed for your convenience. However, it’s understandable and acceptable if you want to use scoped styles, CSS-in-JS, or similar (which may be necessary due to limitations with Element Plus).
+You are allowed to use as many libraries, custom components, and as much custom CSS as necessary–[UnoCSS](https://unocss.dev/) is also installed for your convenience. However, it’s understandable and acceptable if you want to use scoped styles, CSS-in-JS, or similar (which may be necessary due to limitations with Element Plus).
 
 ## Instructions
 
@@ -135,8 +136,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
 1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
 ## Customize configuration
@@ -193,4 +194,5 @@ npm run lint
 ```
 
 ---
+
 For legal information, please see [DISCLAIMER.md](DISCLAIMER.md)

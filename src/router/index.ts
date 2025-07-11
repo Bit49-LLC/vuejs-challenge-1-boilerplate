@@ -1,22 +1,17 @@
-import PokemonListVue from '@/views/PokemonList.vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import PokemonListVue from '@/views/PokemonList.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      redirect: (to) => {
+      redirect: () => {
         return 'pokedex'
-      }
+      },
     },
-    {
-      path: '/pokedex',
-      name: 'pokedex',
-      component: PokemonListVue
-    }
-  ]
+    { path: '/pokedex', name: 'pokedex', component: PokemonListVue },
+  ],
 })
 
 export default router
