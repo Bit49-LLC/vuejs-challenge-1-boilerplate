@@ -113,7 +113,7 @@ Revolve Labs primarily uses Vue.js 3 for front-end web applications, and a boile
 - A .vscode folder containing an [extensions.json](https://github.com/Bit49-LLC/vuejs-challenge-1-boilerplate/blob/main/.vscode/extensions.json) for use with [VSCode](https://code.visualstudio.com/).
 - A custom font, “[Pokémon DP Pro](https://fontstruct.com/fontstructions/show/404271/pok_mon_dp_pro)”, which is reminiscent of the original font from Pokémon Diamond/Pearl/Platinum Versions for the Nintendo DS.
 
-You are allowed to use as many libraries, custom components, and as much custom CSS as necessary–[Tailwind CSS](https://tailwindcss.com/) is also installed for your convenience. However, it’s understandable and acceptable if you want to use scoped styles, CSS-in-JS, or similar (which may be necessary due to limitations with Element Plus).
+You are allowed to use as many libraries, custom components, and as much custom CSS as necessary–[UnoCSS](https://unocss.dev/) is also installed for your convenience. However, it’s understandable and acceptable if you want to use scoped styles, CSS-in-JS, or similar (which may be necessary due to limitations with Element Plus).
 
 ## Instructions
 
